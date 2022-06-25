@@ -1,0 +1,43 @@
+.component-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.component-image {
+  width: 100px;
+  object-fit: cover;
+}
+.component-text {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.component-root-class-name {
+  top: 32px;
+  left: 48px;
+  position: static;
+  align-self: center;
+}
+.component-root-class-name1 {
+  top: 32px;
+  left: 48px;
+  position: static;
+  align-self: center;
+}
+.component-root-class-name2 {
+  top: 32px;
+  left: 48px;
+  position: static;
+  align-self: center;
+}
+@media(max-width: 767px) {
+  .component-root-class-name2 {
+    margin-bottom: var(--dl-space-space-twounits);
+    background-color: var(--dl-color-gray-black);
+  }
+}
